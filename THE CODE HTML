@@ -1,0 +1,308 @@
+<iDOCTYPE html>
+<header><h1>Professional Networking Platform</h1></header>
+<h2>Create Profile</h2>
+
+<body>
+<form>
+     
+    <fieldset>
+        <legend><b>Enter Profile</b></legend>
+        <p>
+          <label for="make">Last Name:</label>
+          <input type="text" id="make" name="make" placeholder="Enter your last name" required>
+        </p>
+        <p>
+          <label for="firstname">First Name:</label>
+          <input type="text" id="firstname" name="firstname" placeholder="Enter your first name" required>
+        </p>
+        <p>
+          <label for="year">Middle Name:</label>
+          <input type="text" id="year" name="year" placeholder="Enter your middle name" required>
+        </p>
+        <p>
+            <label for="suffix">suffix:</label>
+            <select id="suffix" name="suffixn" required>
+              <option value="">None</option>
+              <option value="new">JR.</option>
+              <option value="used">SR.</option>
+              <option value="certified">I</option>
+              <option value="certified">II</option>
+              <option value="certified">III</option>
+              <option value="certified">IV</option>
+              <option value="certified">V</option>
+              <option value="certified">VI</option>
+              <option value="certified">VII</option>
+              <option value="certified">VIII</option>
+              <option value="certified">IX</option>
+              <option value="certified">X</option>
+              <option value="certified">XI</option>
+              <option value="certified">XII</option>
+              <option value="certified">XIII</option>
+              <option value="certified">XIV</option>
+              <option value="certified">XV</option>
+              <option value="certified">XVI</option>
+            </select>
+          </p>
+      </fieldset>
+      <fieldset>
+        <legend>Enter Photo</legend>
+
+      <h1>Profile Photo</h1>
+      <p>Please upload a recent profile photo(JPG,PNG, or JPEG format only)</p>
+
+      <input type="file" id="profile_photo" name="profile_photo" accept="image/jpeg, image/png, image/jpg" required>
+      </fieldset>
+      <fieldset>
+        <legend>Enter your personal statement</legend>
+
+      <h1>Personal Statement</h1>
+      <p>Please provide a brief personal statement about yourself(up to 250 words):</p>
+      <textarea id="personal_statement" name="personal_statement" rows="5" cols="30" maxlength="250" required></textarea>
+      <p>Word Limit: 250 words (Maximum: 1000 characters)</p>
+
+      </fieldset>
+      <fieldset>
+        <legend>Enter your personal statement</legend>
+        <label>
+            <input type="radio" name="gender" value="male"> Male
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female"> Female
+        </label>
+
+        <br><label for="status">Civil status:</label> 
+        <select id="status" name="status" required>
+            <option value="">Select Status</option>
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="divorced">Divorced</option>
+            <option value="widowed">Widowed</option>
+            <option value="separated">Separated</option>
+        </select>
+
+        <label for="religion">Religion:</label> 
+        <select id="religion" name="religion" required>
+            <option value="">Christianity</option>
+            <option value="single">Islam</option>
+            <option value="married">Hinduism</option>
+            <option value="divorced">Sikhism</option>
+            <option value="widowed">Judaism</option>
+            <option value="separated">Baháʼí </option>
+            <option value="separated">Jainism</option>
+            <option value="separated">None(Atheist)</option>
+
+        </select>
+
+      </fieldset>
+
+      <fieldset>
+        
+        <H3>Summary of Work Experience (Start from most recent)</H3>
+        
+
+        <table border="1">
+            <tr>
+                <th>Designation/Appointment</th>
+                <th>Company/Institution</th>
+                <th>Location</th>
+                <th>Inclusive Years</th>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" class="blurry-placeholder" placeholder="YYYY-YYYY"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" class="blurry-placeholder" placeholder="YYYY-YYYY"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" class="blurry-placeholder" placeholder="YYYY-YYYY"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" class="blurry-placeholder" placeholder="YYYY-YYYY"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" class="blurry-placeholder" placeholder="YYYY-YYYY"></td>
+            </tr>
+        </table>
+
+      </fieldset>
+      <fieldset>
+        
+        <H3>Educational Background (Start from most resent)</H3>
+        
+
+        <table border="1">
+            <tr>
+                <th>Degree</th>
+                <th>Specialization</th>
+                <th>School</th>
+                <th>Year Graduated</th>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" class="blurry-placeholder" placeholder="YYYY"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" class="blurry-placeholder" placeholder="YYYY"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" class="blurry-placeholder" placeholder="YYYY"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" class="blurry-placeholder" placeholder="YYYY"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" class="blurry-placeholder" placeholder="YYYY"></td>
+            </tr>
+        </table>
+
+      </fieldset>
+
+      <fieldset>
+        
+        <H3>Certifications Acquired</H3>
+        
+
+        <table border="1">
+            <tr>
+                <th>Certification Name</th>
+                <th>Issuing Organization</th>
+                <th>Year Acquired</th>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" class="blurry-placeholder" placeholder="YYYY-YYYY"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" class="blurry-placeholder" placeholder="YYYY-YYYY"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" class="blurry-placeholder" placeholder="YYYY-YYYY"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" class="blurry-placeholder" placeholder="YYYY-YYYY"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" class="blurry-placeholder" placeholder="YYYY-YYYY"></td>
+            </tr>
+        </table>
+
+      </fieldset>
+
+      <fieldset>
+        
+        <h2>General Skills (Rate Yourself)</h2>
+        <p>Please rate yourself on the following general skills: (1:Novice, 2:Basic, 3:Intermediate, 4:Intermediate, 5:Expert):
+        
+
+        <table border="1">
+            <tr>
+                <th>Communication<br>Skills<br></th>
+                <th>Rating(1-5)</th>
+            </tr>
+            <tr>
+                <td>Problem Solving</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Teamwork</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Adaptability</td>
+                <td><input type="text" ></td>
+            </tr>
+            <tr>
+                <td>Creativity</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Leadership</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Time management</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Emotional Intelligence</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Critical Thingking</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Conflict Resolution</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Decision Making</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Networking</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Negotiation</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Attention to Detail</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Collaboration</td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+        <label>Attachments:</label>
+        <input type="file" id="file" name="File" accept="file" required>
+      </fieldset>
+
+      <input type="submit" value="Submit">
+
+
+</form>
+
+</body>
+
+</iDOCTYPE>
